@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+.totale{
+    display: flex;
+    flex-direction: row;
+}
+.frame1{
+    position: absolute;
+    float: left;
+    height: 100%;
+}
+.frame3{
+    position:absolute;
+    float: right;
+}

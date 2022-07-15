@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    background-color: rgb(26, 32, 47);
+}
+
+body::-webkit-scrollbar {
+    overflow: scroll;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(17, 22, 32);
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    background-color: rgb(17, 22, 32);
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: rgb(17, 22, 32);
+}
+
+.main {
+    margin-left: 160px;
+    font-size: 28px;
+    display: flex;
+    background-color: rgb(19, 25, 40);
+    height: 40%;
+    padding: 10px 10px;
+}
+
+.service {
+    margin-top: 110px;
+    background-color: rgb(17, 22, 32);
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.profile,
+.group,
+.chat,
+.global {
+    background-color: rgb(17, 22, 32);
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 25%;
+    background-color: rgb(17, 22, 32);
+}
+
+.global img {
+    margin-top: 60%;
+    margin-left: 25%;
+    width: 40%;
+    background-color: rgb(17, 22, 32);
+}
+
+.group img {
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 40%;
+    background-color: rgb(17, 22, 32);
+}
+
+.chat img {
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 40%;
+    background-color: rgb(17, 22, 32);
+}
+
+.inputbox {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    background: rgb(19, 25, 40);
+}
+
+.main input {
+    text-align: left;
+    margin-right: 10px;
+    width: 95%;
+    height: 40px;
+    color: rgb(193, 200, 207);
+    font-family: sans-serif;
+    font-size: x-large;
+    border: transparent;
+    border-style: none;
+    background-color: transparent;
+}
+
+.chatprofile {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    background-color: rgb(19, 25, 40);
+}
+
+.profilename {
+    margin-left: 4%;
+    background-color: rgb(19, 25, 40);
+}
+
+.profilename h3 {
+    white-space: nowrap
+}
+
+.profilepic {
+    width: 5%;
+    border-radius: 50%;
+}
+
+.menu {
+    margin-left: auto;
+    width: 4%;
+    margin-top: 1%;
+}
+
+.searching {
+    width: 6%;
+    padding: 4%;
+}
+
+.addprople {
+    margin-top: 3%;
+}
+
+.searchoption {
+    display: flex;
+}
+
+.chatprofilename {
+    display: flex;
+    flex-direction: row;
+}
+
+.participats {
+    display: flex;
+}
+
+.participats {
+    margin-left: 160px;
+}
+
+.chatgroup {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    padding: 2%;
+}
+.chatprofilename:hover{
+    box-shadow:2px 2px deeppink;
+}
+.chatprofilename h1,
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.chatprofilename h1 {
+    color: silver;
+}
+
+.chatprofilename p {
+    color: gray;
+}
+
+.chatprofilename {
+    background-color: rgb(19, 25, 40);
+    border-radius: 5%;
+    padding: 20px;
+    margin-bottom: 10%;
+}
+
+.chatprofilename img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.lastmessage {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.selected {
+    background: linear-gradient(rgb(250, 48, 90), rgb(126, 36, 206));
+}
